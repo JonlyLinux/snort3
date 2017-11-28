@@ -260,7 +260,7 @@ char** mSplit(const char* str, const char* sep_chars, const int max_toks,
                 return retstr;
             }
 
-            tok_start = i;
+            tok_start = i--;
         }
         else
         {
